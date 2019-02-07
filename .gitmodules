@@ -1,0 +1,2 @@
+[submodule "client"]
+	url = https://github.com/bmacintyre/auth_boilerplate-client.git
