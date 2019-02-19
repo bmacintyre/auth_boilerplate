@@ -84,5 +84,21 @@ def data():
     con.commit()
     con.close()
 
+
+# @app.route('/api/frameworks', methods=['POST'])
+# def data():
+#     with engine.connect() as con:
+
+#         if request.method == 'POST':
+#             tkn = request.form.get("token");
+
+#             # response = unirest.get("https://indeed-indeed.p.rapidapi.com/apigetjobs?jobkeys=Python&v=2&format=json&publisher=hookme",
+#             # headers={
+#             #     "X-RapidAPI-Key": "Kq1UO0W2XQgtYhJzpCqtN1WsJuTzPue1"
+#             # }
+#             # )
+
+
+
 if __name__ == '__main__':
     app.run(debug=True)
